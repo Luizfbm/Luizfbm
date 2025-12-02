@@ -2,7 +2,7 @@
 
 **`Desenvolvedor FullStack`**
 
-Me chamo Luiz Filipe Bungenstab Miranda, tenho 20 anos e sou natural do Espirito Santo. Concluí o curso Técnico de informatica para a internet pelo Senac de Vitória. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UVV(Universidade de vila velha). Desenvolvedor Full Stack com foco em JavaScript e Python, atuando em projetos com React, Node.js e bancos de dados SQL com controle de versionamento. Conhecimento em criação de sistemas completos, com interesse em desenvolvimento web..
+Me chamo Luiz Filipe Bungenstab Miranda, tenho 20 anos e sou natural do Espirito Santo. Concluí o curso Técnico de informatica para a internet pelo Senac de Vitória/ES. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UVV(Universidade de vila velha). Desenvolvedor Full Stack com foco em JavaScript e Python, atuando em projetos com React, Node.js e bancos de dados SQL com controle de versionamento. Conhecimento em criação de sistemas completos, com interesse em desenvolvimento web..
 
 
 ### 🤖 Linguagens e Tecnologias
