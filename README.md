@@ -2,7 +2,7 @@
 
 **`Desenvolvedor FullStack`**
 
-"I'm Luiz Filipe, a 20-year-old Full Stack Developer from Espírito Santo, Brazil. I'm currently studying Systems Analysis and Development at UVV, building on my technical background from Senac. My core stack includes JavaScript, Python, React, and Node.js. I’m a problem-solver at heart—tackling LeetCode challenges every day—and I specialize in creating complete web systems from the ground up."
+Me chamo Luiz Filipe Bungenstab Miranda, tenho 20 anos e sou natural do Espirito Santo. Concluí o curso Técnico de informatica para a internet pelo Senac de Vitória/ES. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UVV(Universidade de vila velha). Desenvolvedor Full Stack com foco em JavaScript e Python, atuando em projetos com React, Node.js e bancos de dados SQL com controle de versionamento. Conhecimento em criação de sistemas completos, com interesse em desenvolvimento web..
 
 
 ### 🤖 Linguagens e Tecnologias
