@@ -31,6 +31,7 @@ Sou um Desenvolvedor Full Stack apaixonado por criar soluções eficientes, desd
 
 <div align="center">
   <a href="https://github.com/Luizfbm">
+    [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Luizfbm)](https://github.com/Luizfbm/github-readme-stats)
     <img height="180" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&bg_color=F3F8F9&hide_border=true&title_color=000000&text_color=333333&icon_color=007ec6&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub" />
   </a>
   <a href="https://github.com/Luizfbm">
