@@ -31,10 +31,10 @@ Sou um Desenvolvedor Full Stack apaixonado por criar soluções eficientes, desd
 
 <div align="center">
   <a href="https://github.com/Luizfbm">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&bg_color=F3F8F9&hide_border=true&title_color=000000&text_color=333333&icon_color=007ec6&include_all_commits=true&locale=pt-br" alt="Estatísticas do GitHub" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&bg_color=F3F8F9&hide_border=true&title_color=000000&text_color=333333&icon_color=007ec6&include_all_commits=true&locale=pt-br&v=1" alt="Estatísticas do GitHub" />
   </a>
   <a href="https://github.com/Luizfbm">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&bg_color=F3F8F9&hide_border=true&title_color=000000&text_color=333333&langs_count=8" alt="Linguagens mais usadas" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&bg_color=F3F8F9&hide_border=true&title_color=000000&text_color=333333&langs_count=8&v=1" alt="Linguagens mais usadas" />
   </a>
 </div>
 
