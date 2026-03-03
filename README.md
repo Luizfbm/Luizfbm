@@ -1,4 +1,4 @@
-<div align="center">
+**<div align="center">
   <h1>LUIZ FILIPE</h1>
   <h3>Full Stack Developer | Mobile & Web</h3>
   <p>
@@ -81,3 +81,4 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer"/>
 </div>
+**
