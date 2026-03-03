@@ -12,6 +12,5 @@ const luizProfile = {
     location: "Vitória, ES",
     education: "Análise e Des. de Sistemas @ UVV (Dez/2026)",
     mainSkills: ["React", "Next.js", "TypeScript", "SQL","Node.js","JavaScript" ],
-    softSkills: ["Aprendizado Rápido", "Resolução de Problemas"],
-    hobbies: ["Jiu-Jitsu", "Musculação", "Classic Rock", "Sopranos"]
+    softSkills: ["Aprendizado Rápido", "Resolução de Problemas","Proatividade"],
 };
