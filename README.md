@@ -8,9 +8,8 @@
 const luizProfile = {
     role: "Full Stack Developer",
     company: "S_Line (Intern)",
-    experience: "8+ meses",
+    experience: "8+ months",
     location: "Vitória, ES",
     education: "Análise e Des. de Sistemas @ UVV (Dez/2026)",
-    mainSkills: ["React", "Next.js", "TypeScript", "SQL","Node.js","JavaScript" ],
-    softSkills: ["Aprendizado Rápido", "Resolução de Problemas","Proatividade"],
+    mainSkills: ["React", "Next.js", "TypeScript", "SQL", "Node.js", "JavaScript", "DSA"],
 };
