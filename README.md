@@ -1,76 +1,83 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=LUIZ%20FILIPE&fontAlign=50&fontSize=60&fontAlignY=40&desc=Full%20Stack%20Developer%20%7C%20Mobile%20%26%20Web&descAlign=50&descAlignY=65&descSize=20&height=180"/>
-</div>
+  <h1>LUIZ FILIPE</h1>
+  <h3>Full Stack Developer | Mobile & Web</h3>
+  <p>
+    <em>"Transformando café e jiu-jitsu em código eficiente e soluções escaláveis."</em>
+  </p>
 
-<br>
-
-<table border="0" width="100%">
-  <tr>
-    <td width="55%" valign="top">
-      
-### 🚀 Olá, eu sou o Luiz!
-
-Sou um **Desenvolvedor Full Stack** apaixonado por transformar café em código limpo e eficiente. Atualmente, sou estagiário na **S_Line**, onde trabalho com soluções que impactam laboratórios de saúde em todo o Brasil.
-
-Minha jornada envolve desde a manutenção de sistemas legados críticos até a inovação em Hackathons com IA.
-
-#### 💼 Experiência & Conquistas
-* **8+ Meses** de experiência profissional (Web & Mobile).
-* **Hackathons:** Premiado/Participante no *HackFaesa* e *InovaApp 2025*.
-* **Mobile:** Apps publicados na **App Store** e **Play Store**.
-* **Acadêmico:** Graduando em Análise e Des. de Sistemas (UVV).
-
-#### ⚡ Fun Facts
-* 🥋 **Jiu-Jitsu** é minha terapia.
-* 📺 Fã incondicional de **The Sopranos** e **Dexter**.
-* 🎸 Programo ouvindo **Black Sabbath** e **Nirvana**.
-
-    </td>
-    <td width="45%" valign="top">
-
-### 🛠️ Tech Arsenal
-
-<div align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white" />
   <br>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/FlutterFlow-4285F4?style=flat&logo=flutter&logoColor=white" />
+
+  <a href="https://www.linkedin.com/in/luizfilipemiranda/">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="mailto:contatoluizfbm@gmail.com">
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+  </a>
 </div>
 
 <br>
-
-<div align="center">
-<a href="https://github.com/Luizfbm">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=radical&hide_border=true&count_private=true&hide_title=true" />
-</a>
-</div>
-
-    </td>
-  </tr>
-</table>
 
 ---
 
-### 🏆 Projetos em Destaque
+<div align="center">
+  
+  ### 🧬 Sobre Mim
+  
+  Atuo há **8+ meses** desenvolvendo soluções que impactam laboratórios de saúde em todo o Brasil. <br>
+  Minha especialidade é transitar entre a criação de **novas interfaces modernas** e a manutenção de **sistemas legados críticos**.
 
-| Projeto | Stack | O que é? |
-| :--- | :--- | :--- |
-| **[Case Flow](https://github.com/Luizfbm/CaseFlow-EQPDEV)** | `Next.js` `TS` | Sistema de chamados desenvolvido em 37h (Hackathon). |
-| **[TikTok Shop Dash](https://github.com/Luizfbm/Zzone-Bootcamp-Integracao-tiktokshop)** | `React` `Supabase` | Dashboard de vendas com integração real de API. |
-| **[LeetCode Daily](https://github.com/Luizfbm/Leetcode-solutions)** | `Algorithms` | Soluções diárias de desafios de lógica. |
+  | 💻 Tech | 🚀 Projetos | ⚡ Pessoal |
+  | :--- | :--- | :--- |
+  | **Front:** React, Next.js, TS | **S_Line:** Apps em Produção | **Hobby:** Jiu-Jitsu & Gym |
+  | **Back:** PHP, Laravel, SQL | **HackFaesa:** IA + Dashboards | **Music:** Rock/Metal |
+  | **Mobile:** iOS & Android | **InovaApp:** Case Flow (37h) | **TV:** Sopranos, Dexter |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🛠️ Arsenal Tecnológico
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind&perline=7" />
+<br>
+<img src="https://skillicons.dev/icons?i=php,laravel,mysql,postgres,docker,git,flutter&perline=7" />
+
+</div>
+
+---
+
+<div align="center">
+
+### 🏆 Conquistas & Stats
+
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=Luizfbm&theme=flat&no-frame=true&no-bg=true&margin-w=4" />
+</a>
+
+<br><br>
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=buefy&hide_border=true&hide_title=true&include_all_commits=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=buefy&hide_border=true&hide_title=true&langs_count=6" />
+
+</div>
+
+---
+
+### 📂 Projetos Recentes
+
+- **[Case Flow (InovaApp Hackathon)](https://github.com/Luizfbm/CaseFlow-EQPDEV)**
+  > Sistema de chamados desenvolvido em 37 horas sob pressão. *Next.js 14, TypeScript.*
+
+- **[TikTok Shop Dashboard](https://github.com/Luizfbm/Zzone-Bootcamp-Integracao-tiktokshop)**
+  > Gestão completa para e-commerce com integração real. *React, Supabase.*
+
+- **[LeetCode Daily](https://github.com/Luizfbm/Leetcode-solutions)**
+  > Disciplina diária de algoritmos e estrutura de dados.
 
 <br>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/luizfilipemiranda/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="mailto:contatoluizfbm@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white" target="_blank" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=000000&height=100&section=footer"/>
 </div>
