@@ -7,7 +7,7 @@
 Sou um Desenvolvedor Full Stack apaixonado por criar soluções eficientes, desde o planejamento lógico até o deploy de aplicações em produção. Atualmente, atuo como estagiário na **S_Line**, onde aplico e expando meus conhecimentos resolvendo desafios reais.
 
 - 🎓 Graduando em **Análise e Desenvolvimento de Sistemas** pela **UVV** (Previsão de formação: Dez/2026).
-- 📱 Experiência prática com deploy e atualização de aplicativos móveis em produção, incluindo os apps **Laboratório Maia** e **Laboratório Biovida** (Google Play e App Store).
+- 📱 Experiência prática com deploy e atualização de aplicativos móveis em produção.
 - 💡 Participo ativamente de competições e bootcamps. Desenvolvi projetos complexos sob pressão, como o sistema **Case Flow** (Hackathon UVV InovaApp) e o dashboard de integração para **TikTok Shop** (Zzone Bootcamp).
 - 🧩 Mantenho uma disciplina diária focada em resolução de algoritmos e estrutura de dados no **LeetCode**.
 - 📍 Vitória, Espírito Santo.
