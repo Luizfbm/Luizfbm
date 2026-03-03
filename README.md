@@ -4,14 +4,14 @@
 
 ## 👨‍💻 Sobre Mim
 
-Sou um Desenvolvedor Full Stack apaixonado por criar soluções eficientes, desde o planejamento lógico até o deploy de aplicações em produção. Atualmente, atuo como estagiário na **S_Line**, onde aplico e expando meus conhecimentos resolvendo desafios reais.
+Desenvolvedor Full Stack com 8+ meses de experiência profissional, focado em soluções que impactam laboratórios de saúde em todo o Brasil. Tenho facilidade de aprendizado e atuo tanto na construção de novas interfaces quanto na manutenção de sistemas críticos.
 
-- 🎓 Graduando em **Análise e Desenvolvimento de Sistemas** pela **UVV** (Previsão de formação: Dez/2026).
-- 📱 Experiência prática com deploy e atualização de aplicativos móveis em produção.
-- 💡 Participo ativamente de competições e bootcamps. Desenvolvi projetos complexos sob pressão, como o sistema **Case Flow** (Hackathon UVV InovaApp) e o dashboard de integração para **TikTok Shop** (Zzone Bootcamp).
-- 🧩 Mantenho uma disciplina diária focada em resolução de algoritmos e estrutura de dados no **LeetCode**.
-- 📍 Vitória, Espírito Santo.
+- 🚀 **Desenvolvimento Mobile & Web:** Construí e publiquei aplicações nativas nas lojas (iOS e Android) e desenvolvi interfaces responsivas utilizando **React**, **Next.js**, **TypeScript** e **Tailwind CSS**.
+- 🛠️ **Sistemas Legados:** Experiência na manutenção e evolução de sistemas em **PHP** e **SQL**.
+- 🏆 **Hackathons (HackFaesa & InovaApp 2025):** Entreguei plataformas completas full-stack com integração de IA (**ChatGPT API**), banco de dados **PostgreSQL** e dashboards interativos.
+- ⚙️ **Ferramentas & DevOps:** Git/GitHub, CI/CD, Docker, Deploy em nuvem e FlutterFlow.
 
+📍 Vitória, Espírito Santo
 ---
 
 ## 🚀 Tecnologias e Ecossistema
