@@ -1,8 +1,8 @@
 # Olá, eu sou o Luiz Filipe! 👋
 
-### 👨‍💻 Full Stack Developer | Web Focus
+### 👨‍💻 Full Stack Developer
 
-Sou um desenvolvedor Full Stack apaixonado por criar soluções eficientes e escaláveis. Atualmente, atuo com desenvolvimento web e mobile, com um forte foco no ecossistema **JavaScript/TypeScript** e **React/Next.js**. Além das minhas demandas diárias no trabalho, mantenho a disciplina de resolver desafios no LeetCode (DSA) para aprimorar continuamente minha lógica de programação.
+Sou um desenvolvedor Full Stack apaixonado por criar soluções eficientes e escaláveis. Atualmente, atuo com desenvolvimento web e mobile, com um forte foco no ecossistema **JavaScript**. Além das minhas demandas diárias no trabalho, mantenho a disciplina de resolver desafios no LeetCode (DSA) para aprimorar continuamente minha lógica de programação.
 
 ---
 
