@@ -1,15 +1,19 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&background=00000000&center=true&vCenter=true&width=435&lines=Olá,+eu+sou+o+Luiz+Filipe!;Full+Stack+Developer;S_Line+(Intern)+%7C+8%2B+months;Vitoria,+ES;React+%7C+Next.js+%7C+TS+%7C+Node+%7C+SQL;JavaScript+%2B+DSA" alt="Typing SVG" />
-</div>
+# Olá, eu sou Luiz Filipe 👋
 
-<h3 align="center">👨‍💻 <code>source_code / profile.js</code></h3>
+Sou um **Desenvolvedor Full Stack** apaixonado por criar soluções eficientes, desde o planejamento lógico até o deploy em produção. Com mais de 8 meses de experiência profissional em desenvolvimento web e mobile, possuo facilidade de aprendizado e tenho atuado ativamente em projetos que impactam laboratórios de saúde em todo o Brasil.
 
-```javascript
-const luizProfile = {
-    role: "Full Stack Developer",
-    company: "S_Line (Intern)",
-    experience: "8+ months",
-    location: "Vitória, ES",
-    education: "Análise e Des. de Sistemas @ UVV (Dez/2026)",
-    mainSkills: ["React", "Next.js", "TypeScript", "SQL", "Node.js", "JavaScript", "DSA"],
-};
+### 🚀 Experiência e Destaques
+
+- 💼 **Desenvolvimento Prático:** Construí e publiquei aplicações mobile nas lojas iOS e Android (App Store e Google Play). Desenvolvo interfaces responsivas e escaláveis, além de realizar a manutenção e otimização de sistemas legados.
+- 🎓 **Formação:** Graduando em **Análise e Desenvolvimento de Sistemas** pela **UVV** (Previsão: Dez/2026).
+- 🏆 **Hackathons e Bootcamps:** Entreguei plataformas full-stack completas sob pressão. Destaque para o **HackFaesa 2025**, **UVV InovaApp 2025** (Sistema *Case Flow*) e **Zzone Bootcamp** (Dashboard de integração *TikTok Shop*). Experiência prática na implementação de integrações com IA (API do ChatGPT), bancos de dados estruturados e dashboards interativos.
+- 🧩 **Aprimoramento Contínuo:** Mantenho uma disciplina diária focada em resolução de algoritmos e estrutura de dados (DSA) no **LeetCode**.
+- 📍 Vitória, Espírito Santo.
+
+### 💻 Tecnologias e Ferramentas
+
+- **Front-end:** JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS
+- **Back-end:** Node.js, PHP, Laravel, APIs REST/RESTful
+- **Mobile & Low-Code:** FlutterFlow
+- **Banco de Dados:** SQL, PostgreSQL
+- **DevOps & Infra:** Git/GitHub, Docker, CI/CD, Deploy na nuvem
