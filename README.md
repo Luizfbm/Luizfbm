@@ -43,11 +43,5 @@ I am a Full Stack Developer passionate about creating efficient and scalable sol
 ### 📫 Connect with me
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/SEU_USUARIO/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  
-  <a href="mailto:SEU_EMAIL@dominio.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
-  </a>
-</div>
+  <a href="https://luizfbm.github.io/Portifolio/" target="_blank">
+    <img src="
