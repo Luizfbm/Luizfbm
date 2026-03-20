@@ -34,7 +34,7 @@ I am a Full Stack Developer passionate about creating efficient and scalable sol
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=tokyonight&hide_border=true" alt="Luiz's Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Luiz's Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
