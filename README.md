@@ -21,12 +21,12 @@ At S_line, I work on React Native apps, APIs and release pipelines.
 ## GitHub dashboard
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="Luiz's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Luiz's top languages" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="Luiz's GitHub stats" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Luiz's top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Luizfbm&theme=transparent&hide_border=true" alt="Luiz's GitHub streak" />
+  <img height="205" src="https://streak-stats.demolab.com?user=Luizfbm&theme=transparent&hide_border=true" alt="Luiz's GitHub streak" />
 </p>
 
 ## Stack I use
