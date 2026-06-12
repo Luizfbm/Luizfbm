@@ -12,7 +12,7 @@ I am a Full Stack Developer passionate about creating efficient and scalable sol
 - 🎓 **Education:** Pursuing a degree in Systems Analysis and Development at UVV (Dec/2026) | Technical Diploma in IT for the Internet (Senac).
 - 📍 **Location:** Vitória, ES.
 - 💡 **Current Focus:** Modern Web Development (React, Next.js, Node.js), software architecture, and API integrations.
-- 🌐 **Portfolio:** [luizfbm.github.io/Portifolio/](https://portifolio-luizfbm.com.br/dev/)
+- 🌐 **Portfolio:** [https://portifolio-luizfbm.com.br/dev/](https://portifolio-luizfbm.com.br/dev/)
 
 ---
 
