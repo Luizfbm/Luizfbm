@@ -1,17 +1,7 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0e7490,100:22c55e&height=210&section=header&text=Luiz%20Filipe&fontSize=52&fontColor=f8fafc&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Web%2C%20Mobile%20%26%20AI%20Products&descAlignY=58&descSize=18" alt="Luiz Filipe | Full Stack Developer" />
-</p>
+<h1 align="center">Luiz Filipe</h1>
 
 <p align="center">
-  <a href="https://portifolio-luizfbm.com.br/dev/">
-    <img src="https://img.shields.io/badge/portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/luizfilipedev/">
-    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:contatoluizfbm@gmail.com">
-    <img src="https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <strong>Full Stack Developer | Web, Mobile & AI Products</strong>
 </p>
 
 I build web and mobile products with React Native, Next.js, TypeScript, Node.js and PostgreSQL. Most of my work sits around health, education and operations: messy workflows, internal tools, mobile releases and AI features that need a real reason to exist.
@@ -39,6 +29,14 @@ At S_line, I work on React Native apps, APIs and release pipelines.
 
 I am open to full stack, mobile and applied AI work. Portuguese native, English C1.
 
-- Portfolio: [portifolio-luizfbm.com.br/dev](https://portifolio-luizfbm.com.br/dev/)
-- LinkedIn: [linkedin.com/in/luizfilipedev](https://www.linkedin.com/in/luizfilipedev/)
-- Email: [contatoluizfbm@gmail.com](mailto:contatoluizfbm@gmail.com)
+<p align="center">
+  <a href="https://portifolio-luizfbm.com.br/dev/">
+    <img src="https://img.shields.io/badge/portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/luizfilipedev/">
+    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:contatoluizfbm@gmail.com">
+    <img src="https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
