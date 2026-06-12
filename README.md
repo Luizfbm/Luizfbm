@@ -1,57 +1,81 @@
-# Hello, I am Luiz Filipe! 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0e7490,100:22c55e&height=210&section=header&text=Luiz%20Filipe&fontSize=52&fontColor=f8fafc&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Web%2C%20Mobile%20%26%20AI%20Products&descAlignY=58&descSize=18" alt="Luiz Filipe | Full Stack Developer" />
+</p>
 
-### 👨‍💻 Full Stack Developer
-
-I am a Full Stack Developer passionate about creating efficient and scalable solutions. Currently, I work with web and mobile development, with a strong focus on the **JavaScript** ecosystem. In addition to my daily work demands, I maintain the discipline of solving challenges on LeetCode (DSA) to continuously improve my programming logic.
-
----
-
-### 🚀 About Me
-
-- 💼 **Experience:** Full Stack Developer at S_Line (+8 months of hands-on experience).
-- 🎓 **Education:** Pursuing a degree in Systems Analysis and Development at UVV (Dec/2026) | Technical Diploma in IT for the Internet (Senac).
-- 📍 **Location:** Vitória, ES.
-- 💡 **Current Focus:** Modern Web Development (React, Next.js, Node.js), software architecture, and API integrations.
-- 🌐 **Portfolio:** [https://portifolio-luizfbm.com.br/dev/](https://portifolio-luizfbm.com.br/dev/)
-
----
-
-### 💻 My Main Skills
-
-**Front-end:**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-**Back-end & Database:**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Luiz's Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
----
-
-### 📫 Connect with me
-
-<div align="center">
-  <a href="https://luizfbm.github.io/Portifolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Badge"/>
+<p align="center">
+  <a href="https://portifolio-luizfbm.com.br/dev/">
+    <img src="https://img.shields.io/badge/portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+  <a href="https://www.linkedin.com/in/luizfilipedev/">
+    <img src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:contatoluizfbm@gmail.com">
+    <img src="https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-  <a href="https://www.linkedin.com/in/SEU_USUARIO/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  
-  <a href="mailto:SEU_EMAIL@dominio.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
-  </a>
-</div>
+I build web and mobile products with React Native, Next.js, TypeScript, Node.js and PostgreSQL. Most of my work sits around health, education and operations: messy workflows, internal tools, mobile releases and AI features that need a real reason to exist.
+
+At S_line, I work on React Native apps, APIs and release pipelines. I also keep a LeetCode repo because DSA is still the best way I know to sharpen the boring fundamentals.
+
+```ts
+type StackArea = "web" | "mobile" | "backend" | "data" | "ai";
+
+const luiz = {
+  role: "Full Stack Developer",
+  location: "Vitoria, ES",
+  languages: ["TypeScript", "JavaScript", "Python", "PHP", "C#", "Java"],
+  dailyStack: ["React Native", "Next.js", "Node.js", "PostgreSQL", "Docker"],
+  focus: [
+    "shipping mobile apps without turning release day into drama",
+    "using AI where it removes real friction",
+    "writing APIs and tests that future me can still understand",
+  ],
+  areas: ["web", "mobile", "backend", "data", "ai"] satisfies StackArea[],
+};
+```
+
+## Stack I use
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,nestjs,postgres,prisma,docker,aws,git,githubactions,tailwind,python" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, PostgreSQL, Prisma, Docker, AWS, Git, GitHub Actions, Tailwind CSS and Python" />
+</p>
+
+## Currently building
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [Chrono Crash](https://portifolio-luizfbm.com.br/dev/projects/fullstack-challenge.html) | Crash game treated like a real product: wallet service, realtime rounds, auth, observability and E2E tests. | NestJS, React/Vite, RabbitMQ, Keycloak, PostgreSQL |
+| [IAeJovem](https://portifolio-luizfbm.com.br/dev/projects/iaejovem.html) | Student emotional support platform with a private AI chat and a separate teacher dashboard for risk signals. | Next.js, TypeScript, PostgreSQL, Prisma, ChatGPT API |
+| [Case Flow](https://portifolio-luizfbm.com.br/dev/projects/case-flow.html) | Turns loose support messages into organized tickets with category, priority, roles and a Kanban flow. | Next.js, TypeScript, PostgreSQL, Prisma, NLP |
+| [Dev-roast](https://portifolio-luizfbm.com.br/dev/projects/dev-roast.html) | AI code review with a shareable result page, score, verdict and server-side syntax highlight. | Next.js, React, tRPC, Drizzle ORM, Gemini |
+
+## DSA log
+
+I keep my LeetCode practice in [Leetcode-solutions](https://github.com/Luizfbm/Leetcode-solutions). It is not a trophy wall. It is where I practice complexity, edge cases and cleaner reasoning.
+
+## GitHub dashboard
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="Luiz's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Luiz's top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Luizfbm&theme=transparent&hide_border=true" alt="Luiz's GitHub streak" />
+</p>
+
+## Contribution map
+
+<!-- Generated by .github/workflows/profile-3d.yml after the first workflow run. -->
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D contribution calendar" />
+</p>
+
+## Contact
+
+I am open to full stack, mobile and applied AI work. Portuguese native, English C1.
+
+- Portfolio: [portifolio-luizfbm.com.br/dev](https://portifolio-luizfbm.com.br/dev/)
+- LinkedIn: [linkedin.com/in/luizfilipedev](https://www.linkedin.com/in/luizfilipedev/)
+- Email: [contatoluizfbm@gmail.com](mailto:contatoluizfbm@gmail.com)
