@@ -1,0 +1,52 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Luiz Filipe | Full Stack Developer</title>
+  <desc id="desc">Profile banner for Luiz Filipe, Full Stack Developer focused on web, mobile and AI products.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.52" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#16A34A"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 30) rotate(128) scale(310 210)">
+      <stop stop-color="#67E8F9" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 230) rotate(-35) scale(300 170)">
+      <stop stop-color="#22C55E" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#E2E8F0" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="240" rx="22" fill="url(#bg)"/>
+  <rect width="1000" height="240" rx="22" fill="url(#grid)"/>
+  <rect width="1000" height="240" rx="22" fill="url(#glowA)"/>
+  <rect width="1000" height="240" rx="22" fill="url(#glowB)"/>
+
+  <path d="M690 46C777 60 817 92 875 69C911 55 939 25 985 37" stroke="#A7F3D0" stroke-opacity="0.42" stroke-width="2"/>
+  <path d="M0 183C92 150 143 178 216 151C290 123 316 80 405 98" stroke="#67E8F9" stroke-opacity="0.28" stroke-width="2"/>
+
+  <g opacity="0.95">
+    <text x="70" y="98" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800">Luiz Filipe</text>
+    <text x="72" y="142" fill="#CCFBF1" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="600">Full Stack Developer | Web, Mobile &amp; AI Products</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="72" y="165" width="112" height="34" rx="17" fill="#020617" fill-opacity="0.38" stroke="#A7F3D0" stroke-opacity="0.28"/>
+    <text x="94" y="187" fill="#E0F2FE">TypeScript</text>
+
+    <rect x="196" y="165" width="120" height="34" rx="17" fill="#020617" fill-opacity="0.38" stroke="#A7F3D0" stroke-opacity="0.28"/>
+    <text x="218" y="187" fill="#E0F2FE">React Native</text>
+
+    <rect x="328" y="165" width="86" height="34" rx="17" fill="#020617" fill-opacity="0.38" stroke="#A7F3D0" stroke-opacity="0.28"/>
+    <text x="350" y="187" fill="#E0F2FE">Next.js</text>
+
+    <rect x="426" y="165" width="86" height="34" rx="17" fill="#020617" fill-opacity="0.38" stroke="#A7F3D0" stroke-opacity="0.28"/>
+    <text x="448" y="187" fill="#E0F2FE">Node.js</text>
+
+    <rect x="524" y="165" width="118" height="34" rx="17" fill="#020617" fill-opacity="0.38" stroke="#A7F3D0" stroke-opacity="0.28"/>
+    <text x="546" y="187" fill="#E0F2FE">PostgreSQL</text>
+  </g>
+</svg>

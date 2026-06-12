@@ -1,7 +1,5 @@
-<h1 align="center">Luiz Filipe</h1>
-
 <p align="center">
-  <strong>Full Stack Developer | Web, Mobile & AI Products</strong>
+  <img src="./assets/banner.svg" alt="Luiz Filipe | Full Stack Developer" />
 </p>
 
 I build web and mobile products with React Native, Next.js, TypeScript, Node.js and PostgreSQL. Most of my work sits around health, education and operations: messy workflows, internal tools, mobile releases and AI features that need a real reason to exist.
