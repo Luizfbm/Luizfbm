@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Luiz Filipe | Full Stack Developer" />
+  <img src="./assets/banner.svg" alt="Luiz Filipe | Typescript, Node.js, React, Docker, AWS, AI and Postgres" />
 </p>
 
 I build web and mobile products with React Native, Next.js, TypeScript, Node.js and PostgreSQL. Most of my work sits around health, education and operations: messy workflows, internal tools, mobile releases and AI features that need a real reason to exist.
