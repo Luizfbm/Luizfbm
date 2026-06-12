@@ -18,12 +18,6 @@ I build web and mobile products with React Native, Next.js, TypeScript, Node.js 
 
 At S_line, I work on React Native apps, APIs and release pipelines.
 
-## Stack I use
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,nestjs,postgres,prisma,docker,aws,git,githubactions,tailwind,python" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, PostgreSQL, Prisma, Docker, AWS, Git, GitHub Actions, Tailwind CSS and Python" />
-</p>
-
 ## GitHub dashboard
 
 <p align="center">
@@ -33,6 +27,12 @@ At S_line, I work on React Native apps, APIs and release pipelines.
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Luizfbm&theme=transparent&hide_border=true" alt="Luiz's GitHub streak" />
+</p>
+
+## Stack I use
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,nestjs,postgres,prisma,docker,aws,git,githubactions,tailwind,python" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, PostgreSQL, Prisma, Docker, AWS, Git, GitHub Actions, Tailwind CSS and Python" />
 </p>
 
 ## Contact
