@@ -18,23 +18,6 @@ I build web and mobile products with React Native, Next.js, TypeScript, Node.js 
 
 At S_line, I work on React Native apps, APIs and release pipelines.
 
-```ts
-type StackArea = "web" | "mobile" | "backend" | "data" | "ai";
-
-const luiz = {
-  role: "Full Stack Developer",
-  location: "Vitoria, ES",
-  languages: ["TypeScript", "JavaScript", "Python", "PHP", "C#", "Java"],
-  dailyStack: ["React Native", "Next.js", "Node.js", "PostgreSQL", "Docker"],
-  focus: [
-    "shipping mobile apps without turning release day into drama",
-    "using AI where it removes real friction",
-    "writing APIs and tests that future me can still understand",
-  ],
-  areas: ["web", "mobile", "backend", "data", "ai"] satisfies StackArea[],
-};
-```
-
 ## Stack I use
 
 <p align="center">
