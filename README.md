@@ -9,18 +9,32 @@ At [PVT Software](https://www.pvtsoftware.com.br/), I work as a full stack devel
 ## GitHub dashboard
 
 <p align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=020617&title_color=3B82F6&icon_color=22D3EE&text_color=E2E8F0" alt="Luiz's GitHub stats" />
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&hide_border=true&langs_count=8&bg_color=020617&title_color=3B82F6&text_color=E2E8F0" alt="Luiz's top languages" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=D4D4D4&text_color=A3A3A3" alt="Luiz's GitHub stats" />
+  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&hide_border=true&langs_count=8&bg_color=0D0D0D&title_color=FFFFFF&text_color=A3A3A3" alt="Luiz's top languages" />
 </p>
 
 <p align="center">
-  <img height="205" src="https://streak-stats.demolab.com?user=Luizfbm&hide_border=true&background=020617&ring=3B82F6&fire=22D3EE&currStreakLabel=3B82F6&sideLabels=94A3B8&dates=64748B&currStreakNum=E2E8F0&sideNums=E2E8F0&stroke=1E293B" alt="Luiz's GitHub streak" />
+  <img height="205" src="https://streak-stats.demolab.com?user=Luizfbm&hide_border=true&background=0D0D0D&ring=FFFFFF&fire=D4D4D4&currStreakLabel=FFFFFF&sideLabels=A3A3A3&dates=737373&currStreakNum=FFFFFF&sideNums=D4D4D4&stroke=262626" alt="Luiz's GitHub streak" />
 </p>
 
 ## Stack I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,next,nodejs,nestjs,cs,postgres,prisma,docker,aws,git,githubactions,tailwind,python" alt="TypeScript, JavaScript, React, Next.js, Node.js, NestJS, C#, PostgreSQL, Prisma, Docker, AWS, Git, GitHub Actions, Tailwind CSS and Python" />
+  <img src="https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-0D0D0D?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-0D0D0D?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/NestJS-0D0D0D?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/C%23-0D0D0D?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Prisma-0D0D0D?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/AWS-0D0D0D?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0D0D0D?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
 ## Contact
@@ -29,15 +43,15 @@ I am open to full stack, backend and applied AI work. Portuguese native, English
 
 <p align="center">
   <a href="https://www.pvtsoftware.com.br/">
-    <img src="https://img.shields.io/badge/PVT_Software-06B6D4?style=for-the-badge&labelColor=0B1220&color=3B82F6" alt="PVT Software" />
+    <img src="https://img.shields.io/badge/PVT_Software-FFFFFF?style=for-the-badge&color=FFFFFF" alt="PVT Software" />
   </a>
   <a href="https://portifolio-luizfbm.com.br/dev/">
-    <img src="https://img.shields.io/badge/portfolio-1E40AF?style=for-the-badge&logo=vercel&logoColor=22D3EE" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/luizfilipedev/">
-    <img src="https://img.shields.io/badge/linkedin-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/linkedin-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:contatoluizfbm@gmail.com">
-    <img src="https://img.shields.io/badge/email-0F172A?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" />
+    <img src="https://img.shields.io/badge/email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
