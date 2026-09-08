@@ -1,35 +1,51 @@
 <svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Luiz Filipe</title>
-  <desc id="desc">Profile banner for Luiz Filipe with the technologies Typescript, Node.js, React, Docker, AWS, AI and Postgres.</desc>
+  <title id="title">Luiz Filipe — Full-Stack Developer at PVT Software</title>
+  <desc id="desc">Profile banner for Luiz Filipe. TypeScript, Node.js, React, Docker, AWS, AI and PostgreSQL.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="240" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.56" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0A66C2"/>
+      <stop stop-color="#0B1220"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#020617"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 30) rotate(128) scale(310 210)">
-      <stop stop-color="#60A5FA" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#60A5FA" stop-opacity="0"/>
+    <linearGradient id="brand" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="70" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 28) rotate(128) scale(340 230)">
+      <stop stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 230) rotate(-35) scale(300 170)">
-      <stop stop-color="#0A66C2" stop-opacity="0.26"/>
-      <stop offset="1" stop-color="#0A66C2" stop-opacity="0"/>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 220) rotate(-38) scale(320 180)">
+      <stop stop-color="#3B82F6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#E2E8F0" stroke-opacity="0.06" stroke-width="1"/>
+      <path d="M36 0H0V36" stroke="#E2E8F0" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
+    <clipPath id="frame">
+      <rect width="1000" height="240" rx="22"/>
+    </clipPath>
   </defs>
 
-  <rect width="1000" height="240" rx="22" fill="url(#bg)"/>
-  <rect width="1000" height="240" rx="22" fill="url(#grid)"/>
-  <rect width="1000" height="240" rx="22" fill="url(#glowA)"/>
-  <rect width="1000" height="240" rx="22" fill="url(#glowB)"/>
+  <g clip-path="url(#frame)">
+  <rect width="1000" height="240" fill="url(#bg)"/>
+  <rect width="1000" height="240" fill="url(#grid)"/>
+  <rect width="1000" height="240" fill="url(#glowA)"/>
+  <rect width="1000" height="240" fill="url(#glowB)"/>
+  <rect x="0" y="0" width="8" height="240" fill="url(#brand)"/>
 
-  <path d="M690 46C777 60 817 92 875 69C911 55 939 25 985 37" stroke="#93C5FD" stroke-opacity="0.28" stroke-width="2"/>
-  <path d="M0 183C92 150 143 178 216 151C290 123 316 80 405 98" stroke="#60A5FA" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M690 50C777 64 817 96 875 73C911 59 939 29 985 41" stroke="#67E8F9" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M18 186C110 153 161 181 234 154C308 126 334 83 423 101" stroke="#60A5FA" stroke-opacity="0.22" stroke-width="2"/>
 
-  <g opacity="0.95">
-    <text x="70" y="98" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800">Luiz Filipe</text>
-    <text x="72" y="146" fill="#BFDBFE" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="650">Typescript • Node.js • React • Docker • AWS • AI • Postgres</text>
+  <g>
+    <text x="70" y="92" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Luiz Filipe</text>
+    <rect x="70" y="108" width="210" height="3" rx="1.5" fill="url(#rule)"/>
+    <text x="72" y="142" fill="#22D3EE" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="650">Full-Stack Developer · PVT Software</text>
+    <text x="72" y="178" fill="#93C5FD" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">TypeScript · Node.js · React · Docker · AWS · AI · Postgres</text>
+  </g>
   </g>
 </svg>
