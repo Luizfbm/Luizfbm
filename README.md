@@ -27,7 +27,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-light.svg" />
-  <img width="100%" alt="Stack. Languages: TypeScript, JavaScript, C#, PHP, Python, Java, SQL. Frameworks: React, Next.js, React Native, Node.js, NestJS, Laravel, Tailwind, FastAPI. Data: PostgreSQL, MySQL, SQL Server, Redis, Prisma, Drizzle, SQLite. Operations: Docker, Nginx, PM2, AWS, GitHub Actions, Expo EAS. Applied AI: RAG, prompt engineering, NLP, streaming APIs, MCP, agentic workflows." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
+  <img width="100%" alt="Stack: TypeScript, JavaScript, C#, React, Next.js, React Native, Node.js, NestJS, PostgreSQL, SQL Server, Prisma, Docker, AWS, GitHub Actions. Applied AI: RAG, MCP, agentic workflows, streaming APIs, prompt engineering." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
 </picture>
 
 <br /><br />

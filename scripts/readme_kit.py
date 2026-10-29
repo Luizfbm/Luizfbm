@@ -81,6 +81,8 @@ def _instance(key: str) -> TTFont:
     font = TTFont(FONT_DIR / f"{file}.woff2")
     font = instancer.instantiateVariableFont(font, axes)
     font.flavor = None
+    # Keep head.modified as is, so rebuilding doesn't change every SVG.
+    font.recalcTimestamp = False
     return font
 
 
@@ -141,7 +143,7 @@ def _font_face(key: str, chars: set[str]) -> str:
     buf = io.BytesIO()
     _instance(key).save(buf)
     buf.seek(0)
-    font = TTFont(buf)
+    font = TTFont(buf, recalcTimestamp=False)
     options = subset.Options()
     options.flavor = "woff2"
     options.layout_features = ["kern", "liga", "calt"]

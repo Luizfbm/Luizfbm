@@ -20,7 +20,6 @@ from readme_kit import (
     measure,
     section_head,
     wrap,
-    wrap_items,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,30 +38,17 @@ INTRO_REST = (
     "My projects, with the code and the decisions behind each one, are on my portfolio."
 )
 
+# Only what I use day to day; the full list lives on the portfolio.
 # (name, Simple Icons slug or None for a text tile)
 STACK = [
-    ("Languages", [
-        ("TypeScript", "typescript"), ("JavaScript", "javascript"), ("C#", None),
-        ("PHP", "php"), ("Python", "python"), ("Java", "openjdk"), ("SQL", None),
-    ]),
-    ("Frameworks", [
-        ("React", "react"), ("Next.js", "nextdotjs"), ("React Native", "react"), ("Node.js", "nodedotjs"),
-        ("NestJS", "nestjs"), ("Laravel", "laravel"), ("Tailwind", "tailwindcss"), ("FastAPI", "fastapi"),
-    ]),
-    ("Data", [
-        ("PostgreSQL", "postgresql"), ("MySQL", "mysql"), ("SQL Server", None), ("Redis", "redis"),
-        ("Prisma", "prisma"), ("Drizzle", "drizzle"), ("SQLite", "sqlite"),
-    ]),
-    ("Operations", [
-        ("Docker", "docker"), ("Nginx", "nginx"), ("PM2", "pm2"), ("AWS", None),
-        ("GitHub Actions", "githubactions"), ("Expo EAS", "expo"),
-    ]),
+    ("TypeScript", "typescript"), ("JavaScript", "javascript"), ("C#", None), ("React", "react"),
+    ("Next.js", "nextdotjs"), ("React Native", "react"), ("Node.js", "nodedotjs"),
+    ("NestJS", "nestjs"), ("PostgreSQL", "postgresql"), ("SQL Server", None), ("Prisma", "prisma"),
+    ("Docker", "docker"), ("AWS", None), ("GitHub Actions", "githubactions"),
 ]
-STACK_TEXT = [
-    ("Applied AI", ["RAG", "Prompt Engineering", "NLP", "Streaming API", "MCP", "Agentic Workflows"]),
-    ("Quality", ["TDD", "Automated tests", "RNTL", "SOLID", "REST APIs"]),
-]
-TILE_TEXT = {"C#": "C#", "SQL": "SQL", "SQL Server": "MSSQL", "AWS": "AWS"}
+STACK_PER_ROW = 7
+APPLIED_AI = ["RAG", "MCP", "Agentic workflows", "Streaming APIs", "Prompt engineering"]
+TILE_TEXT = {"C#": "C#", "SQL Server": "MSSQL", "AWS": "AWS"}
 
 CONTACT = [
     ("portfolio", PORTFOLIO),
@@ -215,14 +201,12 @@ def icon_path(slug: str) -> str:
 
 def stack(theme: str) -> Doc:
     p = PALETTES[theme]
-    tile_w, icon = 104, 28
-    group_h = 30 + icon + 40
-    text_groups = [(label, wrap_items(items, "body", 15, (W - 28) / 2)) for label, items in STACK_TEXT]
-    text_h = 34 + max(len(lines) for _, lines in text_groups) * 22
-    h = 84 + len(STACK) * group_h + text_h
-    doc = Doc(W, h, theme, "Stack: " + "; ".join(
-        f"{label}: {', '.join(name for name, _ in items)}" for label, items in STACK
-    ) + "; " + "; ".join(f"{label}: {', '.join(items)}" for label, items in STACK_TEXT))
+    tile_w, icon = W / STACK_PER_ROW, 28
+    row_h = 18 + icon + 34
+    rows = [STACK[i:i + STACK_PER_ROW] for i in range(0, len(STACK), STACK_PER_ROW)]
+    h = 84 + len(rows) * row_h + 52
+    doc = Doc(W, h, theme, "Stack: " + ", ".join(name for name, _ in STACK)
+              + ". Applied AI: " + ", ".join(APPLIED_AI) + ".")
     y = section_head(doc, 0, "Stack", "What I use day to day.")
     doc.css.append(
         f".t{{animation:rise .8s {EASE_OUT} both}}@keyframes rise{{from{{opacity:0;transform:translateY(6px)}}}}"
@@ -230,13 +214,11 @@ def stack(theme: str) -> Doc:
     )
 
     n = 0
-    for label, items in STACK:
-        doc.add(f'<rect x="0" y="{fmt(y)}" width="{W}" height="1" fill="{p["rule"]}"/>')
-        doc.text(0, y + 22, label.upper(), "mono", 10.5, p["ink3"], tracking=0.08)
+    for items in rows:
         for i, (name, slug) in enumerate(items):
             cx = i * tile_w + tile_w / 2
-            ix, iy = cx - icon / 2, y + 36
-            doc.add(f'<g class="t" style="animation-delay:{0.05 + n * 0.025:.3f}s">')
+            ix, iy = cx - icon / 2, y + 18
+            doc.add(f'<g class="t" style="animation-delay:{0.05 + n * 0.03:.3f}s">')
             if slug:
                 doc.add(
                     f'<svg x="{fmt(ix)}" y="{fmt(iy)}" width="{icon}" height="{icon}" viewBox="0 0 24 24">'
@@ -252,15 +234,12 @@ def stack(theme: str) -> Doc:
             doc.text(cx, iy + icon + 20, name, "body", 12.5, p["ink2"], anchor="middle")
             doc.add("</g>")
             n += 1
-        y += group_h
+        y += row_h
 
-    col_w = (W - 28) / 2
-    for j, (label, lines) in enumerate(text_groups):
-        x = j * (col_w + 28)
-        doc.add(f'<rect x="{fmt(x)}" y="{fmt(y)}" width="{fmt(col_w)}" height="1" fill="{p["rule"]}"/>')
-        doc.text(x, y + 22, label.upper(), "mono", 10.5, p["ink3"], tracking=0.08)
-        for k, line in enumerate(lines):
-            doc.text(x, y + 48 + k * 22, line, "body", 15, p["ink"])
+    # Applied AI has no logos worth showing, so it gets one line of text.
+    doc.add(f'<rect x="0" y="{fmt(y + 8)}" width="{W}" height="1" fill="{p["rule"]}"/>')
+    doc.text(0, y + 38, "APPLIED AI", "mono", 10.5, p["ink3"], tracking=0.08)
+    doc.text(112, y + 38, "  ·  ".join(APPLIED_AI), "body", 15, p["ink"])
     return doc
 
 
