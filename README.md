@@ -1,57 +1,124 @@
-<p align="center">
-  <img src="./assets/banner.svg" alt="Luiz Filipe | Full-Stack Developer at PVT Software" />
-</p>
+<a href="https://portfolio.luizfbm.win/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/hero-light.svg" />
+    <img width="100%" alt="Luiz Filipe Miranda, Full Stack developer in Vitória, ES. Portfolio at portfolio.luizfbm.win" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/hero-dark.svg" />
+  </picture>
+</a>
 
-I build web products and internal tools with Next.js, TypeScript, Node.js, NestJS and PostgreSQL. Most of my work sits around operations, ERP integrations and AI features that need a real reason to exist.
+<br />
 
-At [PVT Software](https://www.pvtsoftware.com.br/), I work as a full stack developer on TOTVS RM integrations (REST/SOAP), SQL performance, blue/green production deploys and AI-assisted internal tools. That includes an anti-hallucination layer that cut SQL/ERP query authoring from 15 min to 5 min, and a portfolio query that went from 36s to 3s.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/statement-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/statement-light.svg" />
+  <img width="100%" alt="I take messy operations in healthcare, education, ERP and customer support and get them live. AI only comes in when it cuts time or risk. Portuguese native, English C1. Open to full stack, mobile and applied-AI roles." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/statement-dark.svg" />
+</picture>
 
-## GitHub dashboard
+<br /><br />
 
-<p align="center">
-  <img height="190" src="https://github-readme-stats.vercel.app/api?username=Luizfbm&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=D4D4D4&text_color=A3A3A3" alt="Luiz's GitHub stats" />
-  <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luizfbm&layout=compact&hide_border=true&langs_count=8&bg_color=0D0D0D&title_color=FFFFFF&text_color=A3A3A3" alt="Luiz's top languages" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/impact-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/impact-light.svg" />
+  <img width="100%" alt="Query time 36s to 3s. SQL authoring 15 to 5 minutes. Build and deploy 2 days to under 3 hours. 3.5 million students reached." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/impact-dark.svg" />
+</picture>
 
-<p align="center">
-  <img height="205" src="https://streak-stats.demolab.com?user=Luizfbm&hide_border=true&background=0D0D0D&ring=FFFFFF&fire=D4D4D4&currStreakLabel=FFFFFF&sideLabels=A3A3A3&dates=737373&currStreakNum=FFFFFF&sideNums=D4D4D4&stroke=262626" alt="Luiz's GitHub streak" />
-</p>
+<br /><br />
 
-## Stack I use
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/experience-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/experience-light.svg" />
+  <img width="100%" alt="Experience: Full Stack Developer at PVT Software (now), Web and Mobile Developer at S_line, Web Developer Intern at Super Estágios." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/experience-dark.svg" />
+</picture>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-0D0D0D?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-0D0D0D?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-0D0D0D?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Node.js-0D0D0D?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/NestJS-0D0D0D?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/C%23-0D0D0D?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0D0D0D?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-0D0D0D?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/AWS-0D0D0D?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Git-0D0D0D?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-0D0D0D?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Python-0D0D0D?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-</p>
+<br /><br />
 
-## Contact
+<a href="https://portfolio.luizfbm.win/#cases">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-cases-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-cases-light.svg" />
+    <img width="100%" alt="Cases" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-cases-dark.svg" />
+  </picture>
+</a>
 
-I am open to full stack, backend and applied AI work. Portuguese native, English C1.
-
-<p align="center">
-  <a href="https://www.pvtsoftware.com.br/">
-    <img src="https://img.shields.io/badge/PVT_Software-FFFFFF?style=for-the-badge&color=FFFFFF" alt="PVT Software" />
+<p>
+  <a href="https://portfolio.luizfbm.win/cases/chrono-crash">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/chrono-crash-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/chrono-crash-light.svg" />
+      <img width="49%" alt="Chrono Crash: crash game with real money, realtime and observability." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/chrono-crash-dark.svg" />
+    </picture>
   </a>
-  <a href="https://portifolio-luizfbm.com.br/dev/">
-    <img src="https://img.shields.io/badge/portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  <a href="https://portfolio.luizfbm.win/cases/iaejovem">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/iaejovem-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/iaejovem-light.svg" />
+      <img width="49%" alt="IAeJovem: emotional support inside the school routine, without exposing what the student says." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/iaejovem-dark.svg" />
+    </picture>
   </a>
-  <a href="https://www.linkedin.com/in/luizfilipedev/">
-    <img src="https://img.shields.io/badge/linkedin-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://portfolio.luizfbm.win/cases/case-flow">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/case-flow-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/case-flow-light.svg" />
+      <img width="49%" alt="Case Flow: loose conversation goes in, an organized ticket comes out." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/case-flow-dark.svg" />
+    </picture>
   </a>
-  <a href="mailto:contatoluizfbm@gmail.com">
-    <img src="https://img.shields.io/badge/email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="https://portfolio.luizfbm.win/cases/dev-roast">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/dev-roast-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/dev-roast-light.svg" />
+      <img width="49%" alt="Dev-roast: AI code review that ends in a page worth sharing." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/cases/dev-roast-dark.svg" />
+    </picture>
   </a>
 </p>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-light.svg" />
+  <img width="100%" alt="Stack. Languages: TypeScript, JavaScript, C#, PHP, Python, Java, SQL. Frameworks: React, Next.js, React Native, Node.js, NestJS, Laravel, Tailwind, FastAPI. Data: PostgreSQL, MySQL, SQL Server, Redis, Prisma, Drizzle, SQLite. Operations: Docker, Nginx, PM2, AWS, GitHub Actions, EAS. Applied AI: RAG, NLP, MCP, agentic workflows." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
+</picture>
+
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/activity-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/activity-light.svg" />
+  <img width="100%" alt="GitHub activity over the last 12 months" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/activity-dark.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/snake-light.svg" />
+  <img width="100%" alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/output/snake-dark.svg" />
+</picture>
+
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-contact-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-contact-light.svg" />
+  <img width="100%" alt="Contact" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/head-contact-dark.svg" />
+</picture>
+
+<a href="mailto:contatoluizfbm@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/email-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/email-light.svg" />
+    <img width="100%" alt="Email: contatoluizfbm@gmail.com" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/email-dark.svg" />
+  </picture>
+</a>
+<a href="https://www.linkedin.com/in/luizfilipedev/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/linkedin-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/linkedin-light.svg" />
+    <img width="100%" alt="LinkedIn: linkedin.com/in/luizfilipedev" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/linkedin-dark.svg" />
+  </picture>
+</a>
+<a href="https://portfolio.luizfbm.win/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/portfolio-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/portfolio-light.svg" />
+    <img width="100%" alt="Portfolio: portfolio.luizfbm.win" src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/contact/portfolio-dark.svg" />
+  </picture>
+</a>
