@@ -27,7 +27,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-light.svg" />
-  <img width="100%" alt="Stack: TypeScript, JavaScript, C#, React, Next.js, React Native, Node.js, NestJS, PostgreSQL, SQL Server, Prisma, Docker, AWS, GitHub Actions. Applied AI: RAG, MCP, agentic workflows, streaming APIs, prompt engineering." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
+  <img width="100%" alt="Stack: TypeScript, Node.js, React, PostgreSQL, AWS, Docker, OpenTelemetry, Grafana. Architecture: Clean Architecture, DDD, SOLID, CQRS, Factory, Mediator, Chain of Responsibility. Applied AI: agentic workflows, multi-agent orchestration, RAG, MCP, tool calling, evals." src="https://raw.githubusercontent.com/Luizfbm/Luizfbm/main/assets/stack-dark.svg" />
 </picture>
 
 <br /><br />

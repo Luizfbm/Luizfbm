@@ -11,6 +11,9 @@ import math
 import re
 from pathlib import Path
 
+from fontTools.pens.boundsPen import BoundsPen
+from fontTools.svgLib.path import parse_path
+
 from readme_kit import (
     PALETTES,
     REDUCED_MOTION,
@@ -38,17 +41,15 @@ INTRO_REST = (
     "My projects, with the code and the decisions behind each one, are on my portfolio."
 )
 
-# Only what I use day to day; the full list lives on the portfolio.
-# (name, Simple Icons slug or None for a text tile)
+# Only the core; the full list lives on the portfolio.
+# Two groups: what I write with, then how it runs and how I watch it.
+# (name, icon file in scripts/icons)
 STACK = [
-    ("TypeScript", "typescript"), ("JavaScript", "javascript"), ("C#", None), ("React", "react"),
-    ("Next.js", "nextdotjs"), ("React Native", "react"), ("Node.js", "nodedotjs"),
-    ("NestJS", "nestjs"), ("PostgreSQL", "postgresql"), ("SQL Server", None), ("Prisma", "prisma"),
-    ("Docker", "docker"), ("AWS", None), ("GitHub Actions", "githubactions"),
+    [("TypeScript", "typescript"), ("Node.js", "nodedotjs"), ("React", "react"), ("PostgreSQL", "postgresql")],
+    [("AWS", "aws"), ("Docker", "docker"), ("OpenTelemetry", "opentelemetry"), ("Grafana", "grafana")],
 ]
-STACK_PER_ROW = 7
-APPLIED_AI = ["RAG", "MCP", "Agentic workflows", "Streaming APIs", "Prompt engineering"]
-TILE_TEXT = {"C#": "C#", "SQL Server": "MSSQL", "AWS": "AWS"}
+ARCHITECTURE = ["Clean Architecture", "DDD", "SOLID", "CQRS", "Factory", "Mediator", "Chain of Responsibility"]
+APPLIED_AI = ["Agentic workflows", "Multi-agent orchestration", "RAG", "MCP", "Tool calling", "Evals"]
 
 CONTACT = [
     ("portfolio", PORTFOLIO),
@@ -191,55 +192,53 @@ def intro(theme: str) -> Doc:
     return doc
 
 
-def icon_path(slug: str) -> str:
+def icon(slug: str) -> tuple[str, tuple[float, float, float, float]]:
+    """The icon's path and its tight bounds, so every icon can share one height."""
     svg = (ICONS / f"{slug}.svg").read_text()
     match = re.search(r'<path d="([^"]+)"', svg)
     if not match:
         raise ValueError(f"no path in {slug}.svg")
-    return match.group(1)
+    pen = BoundsPen(None)
+    parse_path(match.group(1), pen)
+    return match.group(1), pen.bounds
 
 
 def stack(theme: str) -> Doc:
     p = PALETTES[theme]
-    tile_w, icon = W / STACK_PER_ROW, 28
-    row_h = 18 + icon + 34
-    rows = [STACK[i:i + STACK_PER_ROW] for i in range(0, len(STACK), STACK_PER_ROW)]
-    h = 84 + len(rows) * row_h + 52
-    doc = Doc(W, h, theme, "Stack: " + ", ".join(name for name, _ in STACK)
-              + ". Applied AI: " + ", ".join(APPLIED_AI) + ".")
-    y = section_head(doc, 0, "Stack", "What I use day to day.")
+    icon_h, line_h = 30, 42
+    lines = [("Architecture", ARCHITECTURE), ("Applied AI", APPLIED_AI)]
+    h = 84 + 76 + len(lines) * line_h + 2
+    doc = Doc(W, h, theme, "Stack: " + ", ".join(name for group in STACK for name, _ in group) + ". "
+              + " ".join(f"{label}: {', '.join(items)}." for label, items in lines))
+    y = section_head(doc, 0, "Stack", "Business rules first, frameworks second.")
     doc.css.append(
         f".t{{animation:rise .8s {EASE_OUT} both}}@keyframes rise{{from{{opacity:0;transform:translateY(6px)}}}}"
         + REDUCED_MOTION
     )
 
-    n = 0
-    for items in rows:
-        for i, (name, slug) in enumerate(items):
-            cx = i * tile_w + tile_w / 2
-            ix, iy = cx - icon / 2, y + 18
-            doc.add(f'<g class="t" style="animation-delay:{0.05 + n * 0.03:.3f}s">')
-            if slug:
-                doc.add(
-                    f'<svg x="{fmt(ix)}" y="{fmt(iy)}" width="{icon}" height="{icon}" viewBox="0 0 24 24">'
-                    f'<path d="{icon_path(slug)}" fill="{p["ink"]}"/></svg>'
-                )
-            else:
-                doc.add(
-                    f'<rect x="{fmt(ix + 0.5)}" y="{fmt(iy + 0.5)}" width="{icon - 1}" height="{icon - 1}" rx="6" '
-                    f'fill="none" stroke="{p["ink2"]}"/>'
-                )
-                tag = TILE_TEXT[name]
-                doc.text(cx, iy + icon / 2 + 3.5, tag, "mono", 9.5 if len(tag) < 4 else 7.5, p["ink"], anchor="middle")
-            doc.text(cx, iy + icon + 20, name, "body", 12.5, p["ink2"], anchor="middle")
-            doc.add("</g>")
-            n += 1
-        y += row_h
+    # Icons spread edge to edge, with a thin rule between the two groups.
+    icons = [(icon(slug), g) for g, group in enumerate(STACK) for _, slug in group]
+    widths = [icon_h * (x1 - x0) / (y1 - y0) for (_, (x0, y0, x1, y1)), _ in icons]
+    gap = (W - sum(widths)) / (len(icons) - 1)
+    x = 0.0
+    for n, (((d, (x0, y0, x1, y1)), g), w) in enumerate(zip(icons, widths)):
+        if n and g != icons[n - 1][1]:
+            doc.add(f'<rect x="{fmt(x - gap / 2)}" y="{fmt(y + 14)}" width="1" height="{icon_h + 8}" fill="{p["rule_strong"]}"/>')
+        doc.add(
+            f'<g class="t" style="animation-delay:{0.05 + n * 0.05:.2f}s">'
+            f'<svg x="{fmt(x)}" y="{fmt(y + 18)}" width="{fmt(w)}" height="{icon_h}" '
+            f'viewBox="{fmt(x0)} {fmt(y0)} {fmt(x1 - x0)} {fmt(y1 - y0)}">'
+            f'<path d="{d}" fill="{p["ink"]}"/></svg></g>'
+        )
+        x += w + gap
+    y += 76
 
-    # Applied AI has no logos worth showing, so it gets one line of text.
-    doc.add(f'<rect x="0" y="{fmt(y + 8)}" width="{W}" height="1" fill="{p["rule"]}"/>')
-    doc.text(0, y + 38, "APPLIED AI", "mono", 10.5, p["ink3"], tracking=0.08)
-    doc.text(112, y + 38, "  ·  ".join(APPLIED_AI), "body", 15, p["ink"])
+    # How I build and where AI fits, one labelled line each.
+    for label, items in lines:
+        doc.add(f'<rect x="0" y="{fmt(y)}" width="{W}" height="1" fill="{p["rule"]}"/>')
+        doc.text(0, y + 27, label.upper(), "mono", 10.5, p["ink3"], tracking=0.08)
+        doc.text(140, y + 28, "  ·  ".join(items), "body", 15, p["ink"])
+        y += line_h
     return doc
 
 
